@@ -1,0 +1,93 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.entry{
+ text-align: center;
+ background-color: #358597;
+ height: 100vh;
+ color: #f4a896;
+ font-family: 'Bitter', serif;
+ 
+}
+h1{
+ font-size: 70px;
+ padding-top: 100px;
+ text-transform: uppercase;
+}
+h2{
+ font-size: 35px;
+ text-transform: capitalize;
+}
+p{
+ font-size: 20px;
+ padding-top: 25px;
+}
+.name{
+ padding-top: 20px;
+}
+button{
+ width: 120px;
+ height: 40px;
+ margin-top: 40px;
+ border-radius: 5px;
+ border: 3px solid #f4a896;
+ background-color: transparent;
+ color: white;
+ font-size: larger;
+ text-transform: capitalize;
+}
+.brand{
+ position: absolute;
+}
+
+.brand1{
+ position: absolute;
+ height: 189px;
+ width: 3px;
+ background-color: #f4a896;
+ margin-left: 100px;
+ margin-bottom: 0;
+}
+.brand2{
+ position: absolute;
+ height: 89px;
+ width: 3px;
+ background-color: #f4a896;
+ margin-left: 120px;
+ margin-top: 100px;
+}
+.brand3{
+ position: absolute;
+ height:50px;
+ width: 50px;
+ background-color: #f4a896;
+ margin-left: 150px;
+ border-radius: 50%;
+ color: aliceblue;
+ margin-bottom: 100px;
+ font-size: xx-large;
+}
+.brand4{
+ position: absolute;
+ height: 50px;
+ width: 50px;
+ background-color: #f4a896;
+ margin-left: 210px;
+ color: aliceblue;
+ font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
