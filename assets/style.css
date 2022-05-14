@@ -15,10 +15,29 @@ h1{
  font-size: 70px;
  padding-top: 100px;
  text-transform: uppercase;
+ position: relative;
+ animation-name: school_name;
+ animation-duration: 4s;
+ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
+}
+@keyframes school_name {
+ 0%{top:-200px;}
+ 100%{top: 0px;}
 }
 h2{
  font-size: 35px;
  text-transform: capitalize;
+ opacity: 0;
+ position: relative;
+ animation-name: test_name;
+ animation-duration: 3s;
+ animation-delay: 4s;
+ animation-fill-mode: forwards;
+ transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
+}
+@keyframes test_name {
+ 0%{opacity: 0; top:-60px;}
+ 100%{opacity: 1; top: 0px;}
 }
 p{
  font-size: 20px;
