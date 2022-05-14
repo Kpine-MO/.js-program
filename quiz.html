@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz area</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Adamina&family=Bitter&family=Nunito:wght@200&family=Poppins:wght@300&family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h3>quiz area</h3>
+    </header>
+    <div class="quiz_container">
+      <div class="qestion">
+        <span><p>Which is not a javascript data type?</p></span>
+      </div>
+      <div class="choices" id="answer">
+        <input type="radio" name="data_type" />
+        <label for="string">String</label>
+        <br />
+        <input type="radio" name="data_type" id="thread" />
+        <label for="string">Thread</label>
+        <br />
+        <input type="radio" name="data_type" />
+        <label for="string">Boolean</label>
+      </div>
+      <div class="question">
+        <p>Which symbol is used for comment in javascript?</p>
+      </div>
+      <div class="choices" id="answer">
+        <input type="radio" name="comment" />
+        <label for="string">//*</label>
+        <br />
+        <input type="radio" name="comment" />
+        <label for="string">*/</label>
+        <br />
+        <input type="radio" name="comment" id="double_stroke" />
+        <label for="string">//</label>
+      </div>
+
+      <div class="questin">
+        <p>Which is not an example of loop?</p>
+      </div>
+      <div class="choices" id="answer">
+        <input type="radio" name="loop" />
+        <label for="string">For</label>
+        <br />
+        <input type="radio" name="loop" />
+        <label for="string">While</label>
+        <br />
+        <input type="radio" name="loop" id="infinite" />
+        <label for="string">Infinite</label>
+      </div>
+      <div>
+        <p>Is javascript a case sensitive language?</p>
+      </div>
+      <div class="choices" id="answer">
+        <input type="radio" name="case_sensitive" id="yes" />
+        <label for="string">Yes</label>
+        <br />
+        <input type="radio" name="case_sensitive" />
+        <label for="string">NO</label>
+        <br />
+        <input type="radio" name="case_sensitive" />
+        <label for="string">Mostly</label>
+      </div>
+      <button class="btn" onclick="results()">submit</button>
+      <a href="index.html"><button>back</button></a>
+    </div>
+  </body>
+</html>
