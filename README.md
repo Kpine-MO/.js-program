@@ -14,6 +14,7 @@
 -[Requirements](#requirements)
 -[Tecnology Used](#technology-used)
 -[Live Link](#live-link)
+-[Figma Link](#figma-link)
 -[Licence](#licence)
 -[Author's Info](#author's-info)
 
@@ -53,6 +54,11 @@ As a user of this programm you will be able to :
 https://kpine-mo.github.io/.js-program/
 
  [Go Back to the top](#cosmo-high)
+
+ ## Figma Link
+ -Click here to view link
+
+ https://www.figma.com/file/KmxTmFy25YsjxpCiA8rR5y/js
 
  ### LIcence
 
