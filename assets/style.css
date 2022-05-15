@@ -9,20 +9,30 @@
  height: 100vh;
  color: #f4a896;
  font-family: 'Bitter', serif;
- 
+ position: relative;
+ animation-name: entry;
+ animation-duration: 2s;
+ animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes entry {
+ 0%{top:-3000px;}
+ 100%{top: 0px;}
 }
 h1{
  font-size: 70px;
  padding-top: 100px;
  text-transform: uppercase;
+ opacity: 0;
  position: relative;
  animation-name: school_name;
  animation-duration: 4s;
+ animation-delay: 2s;
+ animation-fill-mode: forwards;
  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
 }
 @keyframes school_name {
- 0%{top:-200px;}
- 100%{top: 0px;}
+ 0%{opacity: 0; top:-200px;}
+ 100%{opacity: 1; top: 0px;}
 }
 h2{
  font-size: 35px;
@@ -30,8 +40,8 @@ h2{
  opacity: 0;
  position: relative;
  animation-name: test_name;
- animation-duration: 3s;
- animation-delay: 4s;
+ animation-duration: 2s;
+ animation-delay: 6s;
  animation-fill-mode: forwards;
  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
 }
@@ -60,6 +70,7 @@ button{
 }
 button:hover{
  background-color: rgba(9, 83, 83, 0.7);
+ transform: scale(1.1);
 }
 .brand{
  position: absolute;
@@ -72,6 +83,17 @@ button:hover{
  background-color: #f4a896;
  margin-left: 100px;
  margin-bottom: 0;
+ position: relative;
+ opacity: 0;
+ animation-name: brand1;
+ animation-duration: 2s;
+ animation-delay: 2s;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes brand1 {
+ 0%{opacity: 0; bottom:-200px;}
+ 100%{opacity: 1; bottom: 0px;}
 }
 .brand2{
  position: absolute;
@@ -80,8 +102,19 @@ button:hover{
  background-color: #f4a896;
  margin-left: 120px;
  margin-top: 100px;
+ position: relative;
+ opacity: 0;
+ animation-name: brand2;
+ animation-duration: 2s;
+ animation-delay: 4s;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);               
 }
-.brand3{
+@keyframes brand2 {
+ 0%{opacity: 0; bottom:-89px;}
+ 100%{opacity: 1; bottom: 190px;}
+}
+.brand3{                      
  position: absolute;
  height:50px;
  width: 50px;
