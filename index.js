@@ -18,4 +18,4 @@ function results(){
   score++
   }
   window.alert('Your score is:'+score);
-};
+}
