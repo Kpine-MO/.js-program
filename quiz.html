@@ -12,15 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Adamina&family=Bitter&family=Nunito:wght@200&family=Poppins:wght@300&family=Teko:wght@300&display=swap"
       rel="stylesheet"
     />
-    <script src="/index.js"></script>
+    
   </head>
-  <body>
+  <body class="exam">
     <header>
       <h3>quiz area</h3>
     </header>
     <div class="quiz_container">
       <div class="qestion">
-        <span><p>Which is not a javascript data type?</p></span>
+        <span><p>1. Which is not a javascript data type?</p></span>
       </div>
       <div class="choices" id="answer">
         <input type="radio" name="data_type" />
@@ -33,7 +33,7 @@
         <label for="string">Boolean</label>
       </div>
       <div class="question">
-        <p>Which symbol is used for comment in javascript?</p>
+        <p>2. Which symbol is used for comment in javascript?</p>
       </div>
       <div class="choices" id="answer">
         <input type="radio" name="comment" />
@@ -47,7 +47,7 @@
       </div>
 
       <div class="questin">
-        <p>Which is not an example of loop?</p>
+        <p>3. Which is not an example of loop?</p>
       </div>
       <div class="choices" id="answer">
         <input type="radio" name="loop" />
@@ -60,7 +60,7 @@
         <label for="string">Infinite</label>
       </div>
       <div>
-        <p>Is javascript a case sensitive language?</p>
+        <p>4. Is javascript a case sensitive language?</p>
       </div>
       <div class="choices" id="answer">
         <input type="radio" name="case_sensitive" id="yes" />
@@ -72,9 +72,10 @@
         <input type="radio" name="case_sensitive" />
         <label for="string">Mostly</label>
       </div>
-      <button class="btn" onclick="results()">submit</button>
-      <a href="index.html"><button>back</button></a>
+      <button class="submit" onclick="results()">submit</button>
+      <a href="index.html"><button class="submit">back</button></a>
       
     </div>
   </body>
+  <script src="/index.js"></script>
 </html>

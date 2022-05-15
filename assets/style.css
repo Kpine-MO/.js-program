@@ -25,7 +25,7 @@ h1{
  opacity: 0;
  position: relative;
  animation-name: school_name;
- animation-duration: 4s;
+ animation-duration: 2s;
  animation-delay: 2s;
  animation-fill-mode: forwards;
  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
@@ -41,7 +41,7 @@ h2{
  position: relative;
  animation-name: test_name;
  animation-duration: 2s;
- animation-delay: 6s;
+ animation-delay: 4s;
  animation-fill-mode: forwards;
  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 0.075);
 }
@@ -53,10 +53,50 @@ p{
  font-size: 20px;
  padding-top: 25px;
 }
-.name{
- padding-top: 20px;
+.p_one{
+ opacity: 0;
+ position: relative;
+ animation-duration: .5s;
+ animation-delay: 6s;
+ animation-name: p_one;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
-button{
+@keyframes p_one {
+ 0%{opacity: 0;}
+ 50%{opacity: 0;}
+ 100%{opacity: 1;}
+}
+.by{
+ opacity: 0;
+ position: relative;
+ animation-duration: .5s;
+ animation-delay: 6.5s;
+ animation-name: by;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+@keyframes by{
+ 0%{opacity: 0;}
+ 50%{opacity: 0;}
+ 100%{opacity: 1;}
+}
+.p_two{
+ padding-top: 20px;
+ opacity: 0;
+ position: relative;
+ animation-duration: .5s;
+ animation-delay: 7s;
+ animation-name: p_two;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+@keyframes p_two{
+ 0%{opacity: 0;}
+ 50%{opacity: 0;}
+ 100%{opacity: 1;}
+}
+.submit{
  width: 120px;
  height: 40px;
  margin-top: 40px;
@@ -67,6 +107,28 @@ button{
  font-size: larger;
  text-transform: capitalize;
  cursor: pointer;
+}
+.fill{
+ width: 120px;
+ height: 40px;
+ margin-top: 40px;
+ border-radius: 5px;
+ border: 3px solid #f4a896;
+ background-color: #358597;
+ color: white;
+ font-size: larger;
+ text-transform: capitalize;
+ cursor: pointer;
+ opacity: 0;
+ animation-name: btn;
+ animation-duration: 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 8s;
+ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+@keyframes btn {
+ 0%{opacity: 0;}
+ 100%{opacity: 1;}
 }
 button:hover{
  background-color: rgba(9, 83, 83, 0.7);
@@ -144,6 +206,16 @@ button:hover{
  margin-left: 210px;
  color: aliceblue;
  font-size: xx-large;
+ opacity: 0;
+ animation-name: brand4;
+ animation-duration: 1s;
+ animation-delay: 6s;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes brand4 {
+ 0%{opacity: 0; bottom:-89px;}
+ 100%{opacity: 1; bottom: 110px;}
 }
 .quiz_container{
  padding-left: 500px;
@@ -195,7 +267,12 @@ margin-bottom: 20px;
  margin: 20px 0;
  padding-bottom: 10px;
 }
-
+/*
+@media screen and ( max-width: 898px) {
+ .quiz_container{
+  padding-left: 20px;
+ }
+}
 
 
 

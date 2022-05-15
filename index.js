@@ -17,5 +17,5 @@ function results(){
   {
   score++
   }
-  document.write('Your score is:'+score)
+  console.log(document.write('Your score is:'+score));
 }
