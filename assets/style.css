@@ -124,6 +124,17 @@ button:hover{
  color: aliceblue;
  margin-bottom: 100px;
  font-size: xx-large;
+ position: relative;
+ opacity: 0;
+ animation-name: brand3;
+ animation-duration: 1s;
+ animation-delay: 6s;
+ animation-fill-mode: forwards;
+ animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);    
+}
+@keyframes brand3 {
+ 0%{opacity: 0; bottom:-89px;}
+ 100%{opacity: 1; bottom: 350px;}
 }
 .brand4{
  position: absolute;
