@@ -5,25 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forms page</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Adamina&family=Bitter&family=Nunito:wght@200&family=Poppins:wght@300&family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <form action="/forms.html">
-      <div>
+  <body class="form">
+    <h3>fill before proceeding</h3>
+    <form action="/quiz.html">
+      <div class="name">
         <label for="name">Name</label>
-        <input id="name" name="name" type="text" />
+        <input id="name" name="name" type="text" required />
       </div>
-      <div>
+      <div class="class">
         <label for="class">Class</label>
-        <input id="class" name="class" type="text" />
+        <input id="class" name="class" type="text" required />
       </div>
-      <div>
-        <label for="id_number">ID number</label>
-        <input id="id_number" name="id_number" type="text" />
+      <div class="id">
+        <label for="id_number">ID.no</label>
+        <input id="id_number" name="id_number" type="text" required />
       </div>
-      <div>
+      <div class="date">
         <label for="date">Date</label>
-        <input id="date" name="date" type="text" />
+        <input id="date" name="date" type="text" required />
       </div>
+      <a href="quiz.html"><button type="submit">Submit</button></a>
     </form>
   </body>
 </html>

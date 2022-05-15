@@ -178,8 +178,23 @@ margin-bottom: 20px;
  margin-left: 500px;
 }
 
-
-
+.form{
+ text-align: center;
+ background-color: #358597;
+}
+.form input{
+ margin-top: 30px;
+ font-size: larger;
+ border-radius: 6px;
+ background-color: #358597;
+}
+.form h3{
+ color: #f4a896;
+ font-size: xx-large;
+ text-transform: capitalize;
+ margin: 20px 0;
+ padding-bottom: 10px;
+}
 
 
 
